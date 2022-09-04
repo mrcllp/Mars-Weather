@@ -20,3 +20,35 @@
   --clr-accent: #D06D6D;
   --clr-accent-dark: #613131;
 }
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-image: url(../img/mars.jpg);
+    background-size: cover;
+    color: var(--clr-light);
+    min-height: 100vh;
+  }
+  
+  h1, h2, h3 {
+    line-height: 1;
+  }
+  
+  a {
+    color: var(--clr-accent);
+  }
+  
+  a:hover {
+    color: var(--clr-accent-dark);
+  }
+  
+  .main-title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-light);
+    text-transform: uppercase;
+    color: var(--clr-accent);
+    letter-spacing: 2px;
+    grid-column: 1 / -1;
+  }
